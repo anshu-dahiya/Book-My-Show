@@ -1,0 +1,13 @@
+.TS_heading{
+    width: 100%;
+    font-size: 22px;
+    color: black;
+}
+
+.TS_main_container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color: black;
+}
