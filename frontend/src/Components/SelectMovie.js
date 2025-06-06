@@ -9,7 +9,7 @@ const SelectMovie = () => {
 
   const {movie,changeMovie} = context;
 
-  const handleChnageMovie = (val) => {
+  const handleChangeMovie = (val) => {
     changeMovie(val);
 
     window.localStorage.setItem("movie",val)
@@ -23,7 +23,7 @@ const SelectMovie = () => {
         {moviesList.map((element,index) => {
             return (
                 <RadioComponent  text={element} key={index} data={movie} 
-                changeSelection={handleChnageMovie}/>
+                changeSelection={handleChangeMovie}/>
             )
         })}
       </div>
