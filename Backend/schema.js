@@ -15,6 +15,6 @@ const TicketSchema = new mongoose.Schema({
     }
 })
 
-const TicketModal = new mongoose.model('bookmovie',TicketSchema);
+const Ticket = new mongoose.model('bookmovie',TicketSchema);
 
 module.exports = Ticket;
